@@ -3,7 +3,8 @@
 /**
  * main - funtion prints out byte sizes of different variable types
  *
- * Description: prints the size of char, int, lont int, long long int, and float
+ * Description: prints the size of char, int, lont int, 
+ * long long int, and float
  * Return: 0 to exit program
  */
 
