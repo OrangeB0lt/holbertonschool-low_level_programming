@@ -3,7 +3,7 @@
 /**
  * main - funtion prints out byte sizes of different variable types
  *
- * Description: prints the size of char, int, lont int, 
+ * Description: prints the size of char, int, lont int,
  * long long int, and float
  * Return: 0 to exit program
  */
@@ -16,5 +16,4 @@ int main(void)
 	printf("Size of a long long int: %zd byte(s)\n", sizeof(long long));
 	printf("Size of a float: %zd byte(s)\n", sizeof(float));
 	return (0);
-
 }
