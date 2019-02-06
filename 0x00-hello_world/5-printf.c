@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * Printf used to print text
+ * Return 0 to exit program
+ */
 
 int main(void)
 {
