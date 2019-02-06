@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int i = strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	int i = strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 
 	write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", i);
 
