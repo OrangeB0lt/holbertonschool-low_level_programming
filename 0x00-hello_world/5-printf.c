@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /**
- * Printf used to print text
- * Return 0 to exit program
+ * main - Printf used to print string
+ * Return: 0 to exit program
  */
 
 int main(void)
 {
-  printf("with proper grammar, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
