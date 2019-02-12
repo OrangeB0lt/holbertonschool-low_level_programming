@@ -3,7 +3,7 @@
 /**
  * print_alpabet - uses a forloop to print the alphabet in all lower case
  *
- * Description: uses a forloop to print alphabet in all lowercase, prints new line
+ * Description: prints alphabet in all lowercase, prints new line
 **/
 
 int print_alphabet(void)
