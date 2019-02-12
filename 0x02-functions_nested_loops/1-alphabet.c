@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_alpabet - uses a forloop to print the alphabet in all lower case
+ * print_alphabet - uses a forloop to print the alphabet in all lower case
  *
  * Description: prints alphabet in all lowercase, prints new line
 **/
