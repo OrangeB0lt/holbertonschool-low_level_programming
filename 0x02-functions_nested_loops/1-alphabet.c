@@ -6,7 +6,7 @@
  * Description: prints alphabet in all lowercase, prints new line
 **/
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char i;
 
