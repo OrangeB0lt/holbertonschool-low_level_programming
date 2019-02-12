@@ -6,13 +6,13 @@
  * Description: prints alphabet in all lowercase, prints new line
 **/
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int n;
 
 	n = 0;
 
-	while (i< 10)
+	while (n < 10)
 	{
 		char i = 'a';
 
@@ -21,6 +21,6 @@ void print_alphabet_x10(void);
 			_putchar(i++);
 		}
 		_putchar('\n');
-		i++;
+		n++;
 	}
 }
