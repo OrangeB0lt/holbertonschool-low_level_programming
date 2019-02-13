@@ -7,6 +7,7 @@
  *
  * Return: returns last digit
  **/
+
 int print_last_digit(int n)
 {
 	int i = n % 10;
@@ -14,7 +15,7 @@ int print_last_digit(int n)
 	if (i >= 0)
 	{
 		_putchar(i + '0');
-		return (-i);
+		return (i);
 	}
 	else
 	{
