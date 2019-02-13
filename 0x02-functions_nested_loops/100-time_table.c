@@ -18,7 +18,7 @@ void print_times_table(int n)
 			_putchar('0');
 			while (x <= n)
 			{
-				int o = i * b;
+				int o = i * x;
 
 				_putchar(',');
 				_putchar(' ');
