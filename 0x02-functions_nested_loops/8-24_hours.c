@@ -19,10 +19,10 @@ void jack_bauer(void)
 			_putchar((x / 10) + '0');
 			_putchar((x % 10) + '0');
 			_putchar('\n');
-			x++
+			x++;
 
 		}
-		i++
-	      	x = 0;
+		i++;
+		x = 0;
 	}
 }
