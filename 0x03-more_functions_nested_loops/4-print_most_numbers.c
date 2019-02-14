@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
+ * print_most_numbers - prints any number not 2 or 4
  *
- *
- *
+ * Return: none
  *
  *
  **/
