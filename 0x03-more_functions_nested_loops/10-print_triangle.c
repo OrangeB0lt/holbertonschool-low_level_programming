@@ -1,12 +1,11 @@
 #include "holberton.h"
 
 /**
- * print_triangle - pritns a triangle of #
- *
+ * print_triangle - prints a triangle of pound signs
  * @size: size of the triangle
- *
  * Return: none
  **/
+
 void print_triangle(int size)
 {
 	int i, x, s;
@@ -19,7 +18,7 @@ void print_triangle(int size)
 	{
 		for (x = 0; x < size; x++)
 			{
-			        s = size - i - 1;
+				s = size - i - 1;
 				if (x < s)
 				{
 					_putchar(' ');
@@ -28,5 +27,5 @@ void print_triangle(int size)
 					_putchar('#');
 			}
 			     _putchar('\n');
-		     }
+	}
 }
