@@ -1,4 +1,4 @@
-#include "hoblerton.h"
+#include "holberton.h"
 
 /**
 * print_diagonal - the function prints \ in a diagonal pattern
@@ -8,13 +8,13 @@
 * Return: none
 **/
 
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	int i, x;
 
 	for (i = 0; i < n; i++)
 	{
-		for (x = 0; x < n; n++)
+		for (x = 0; x < n; x++)
 		{
 			if (x != i)
 			{
@@ -22,11 +22,13 @@ void print_diagonal(int n);
 			}
 			else
 			{
-				_putchar(\\);
+				_putchar('\\');
 			}
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 	if (n <= 0)
-	   _putchar('\n');
+	{
+		_putchar('\n');
+	}
 }
