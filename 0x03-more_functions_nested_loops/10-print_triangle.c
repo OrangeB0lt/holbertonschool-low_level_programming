@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
+ * print_triangle - pritns a triangle of #
  *
+ * @size: size of the triangle
  *
- *
- *
- *
+ * Return: none
  **/
 void print_triangle(int size)
 {
