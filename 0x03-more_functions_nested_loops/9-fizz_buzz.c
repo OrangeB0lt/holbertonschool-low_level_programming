@@ -1,10 +1,9 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
  * main - produces FizzBuzz
  *
  * Return: 0
- *
- *
  **/
 
 int main(void)
