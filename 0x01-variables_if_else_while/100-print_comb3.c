@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
+ * main - prints all number 01-100 except ones containing patterns already shown
  *
- *
- *
+ * Return: returns 0 to end program
  *
  *
  **/
@@ -33,4 +33,5 @@ int main(void)
 			}
 		}
 	}
+	return (0);
 }
