@@ -16,18 +16,20 @@ int main(void)
 	{
 		for (i = 0; i <=9; i++)
 		{
-			if ((i > o) && (o != 8))
+			if (i > o)
 			{
 				putchar(o + '0');
 				putchar(i + '0');
-				putchar(',');
-				putchar(' ');
-			}
-			else if ((i > o) && (o == 8))
-			{
-				putchar(o + '0');
-				putchar(i + '0');
-				putchar('\n');
+
+			       if (o != 8)
+			       {
+				       putchar(',');
+				       putchar(' ');
+			       }
+			       else if (o == 8)
+			       {
+				       putchar('\n');
+			       }
 			}
 		}
 	}
