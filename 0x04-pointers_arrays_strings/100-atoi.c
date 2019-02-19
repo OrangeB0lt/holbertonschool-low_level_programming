@@ -1,6 +1,12 @@
 #include "holberton.h"
 #include <stdio.h>
 
+/**
+ * _atoi - prints our strings as integers
+ * @s: the string being converted
+ * Return: return the integer
+ **/
+
 int _atoi(char *s)
 {
 	int n, i, x;
