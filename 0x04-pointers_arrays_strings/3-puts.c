@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * _put - places a string followed by a new line
+ * _puts - places a string followed by a new line
  * @str: string needed to be printed
  *
  **/
 
-void _put(char *str);
+void _puts(char *str)
 {
 	int i;
 	char x;
