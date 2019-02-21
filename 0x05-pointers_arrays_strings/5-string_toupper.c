@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- *
- *
+ * string_toupper - makes lower case letters in string upper case
+ * @n: the string
+ * Return: returns the fixed string
  *
  **/
 
