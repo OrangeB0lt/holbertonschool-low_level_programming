@@ -8,9 +8,9 @@
 
 char *rot13(char *n)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; n[i] != '\0'; i++)
+	while (n[i] != '\0')
 	{
 		if ((n[i] >= 'A' && n[i] <= 'M') ||
 		    (n[i] >= 'a' && n[i] <= 'm'))
@@ -22,6 +22,7 @@ char *rot13(char *n)
 		{
 			n[i] -= 13;
 		}
+		i++;
 	}
 	return (n);
 }
