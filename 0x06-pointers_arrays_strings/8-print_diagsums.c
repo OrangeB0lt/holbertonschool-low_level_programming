@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <stdio.h>
 /**
  * print_diagsums - prints the sum of two diagonal ints in a matrix
  * @a: array
