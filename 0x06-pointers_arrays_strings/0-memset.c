@@ -2,9 +2,11 @@
 
 /**
  * _memset - main function to print memory sets
+ *
  * @s: string
  * @b: constant byte
  * @n: unsigned integer
+ * Return: returns array s
  **/
 
 char *_memset(char *s, char b, unsigned int n)
