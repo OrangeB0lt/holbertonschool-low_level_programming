@@ -3,7 +3,7 @@
 /**
  * factorial - prints factorial
  * @n: number
- * Returns -1 if error, 0 if n is lower.
+ * Return: -1 if error, 0 if n is lower.
  **/
 
 int factorial(int n)
