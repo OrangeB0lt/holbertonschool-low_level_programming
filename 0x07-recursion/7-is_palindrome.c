@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- *
- *
- *
+ * _strlen - string length
+ * @n: the string
+ * Return: integer length
  **/
 
 int _strlen(char *n)
@@ -16,9 +16,11 @@ int _strlen(char *n)
 }
 
 /**
- *
- *
- *
+ * palindrome_check - checks if the numbers are equal
+ * @s: input string
+ * @i: start index
+ * @x: end index
+ * Return: return boolean answer
  **/
 
 int palindrome_check(char *s, int i, int x)
@@ -37,9 +39,9 @@ int palindrome_check(char *s, int i, int x)
 
 
 /**
- *
- *
- *
+ * is_palindrome - checks if string is a palindrom
+ * @s: input string
+ * Return: boolean answer
  **/
 
 int is_palindrome(char *s)
