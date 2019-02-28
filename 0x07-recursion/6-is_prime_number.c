@@ -5,6 +5,7 @@
  * @n: input value
  * Return: returns booleen value
  **/
+int prime_check(int i, int n);
 
 int is_prime_number(int n)
 {
