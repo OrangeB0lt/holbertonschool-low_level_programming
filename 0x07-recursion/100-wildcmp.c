@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
- *
- *
- *
+ * wildcmp - compares two strings with possible wildcards
+ * @s1: string one, no wildcards
+ * @s2: can contain wildcards, string two
+ * Return: 1 if the string is identical otherwise 0
  **/
 
 int wildcmp(char *s1, char *s2)
