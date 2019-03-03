@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
- *
+ * main - function multiplies arguments put in
+ * @argc: number of arguments
+ * @argv: arguments to multiply
+ * Return: returns 1 if an error occures, 0 if the number can be multiplied
  **/
 
 int main(int argc, char *argv[])
