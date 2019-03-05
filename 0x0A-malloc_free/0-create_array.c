@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * create_array - creates an array of characters
+ * @size: size
+ * @c: character c
+ * Return: returns c in array
+ **/
+
 char *create_array(unsigned int size, char c)
 {
 	char *r;
