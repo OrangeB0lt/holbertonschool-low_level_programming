@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
- *
+ * argstostr - concats all agruments put in
+ * @ac: argument count
+ * @av: agrument values
+ * Return: returns pointer to a string
  **/
 
 char *argstostr(int ac, char **av)
