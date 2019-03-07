@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+#include "holberton.h"
 
 /**
  * _calloc - uses malloc to assign memory, then sets it to zero
- * @nmemb; memory spaces
+ * @nmemb: memory spaces
  * @size: size of nmemb
  * Return: returns pointer to allocated space, or returns NULL on fail
  **/
@@ -13,7 +15,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned int i;
 	char *allocate;
 
-	if (nmem == 0 || size == 0)
+	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
@@ -22,7 +24,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	for (i=0; i != size; i++)
+	for (i = 0; i != size; i++)
 	{
 		*(allocate + (size * i)) = 0;
 	}
