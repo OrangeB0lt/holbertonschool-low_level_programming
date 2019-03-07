@@ -12,7 +12,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *empty, *pointer;
-	unsigned int i, c, v;
+	unsigned int i, c;
 
 	empty = "";
 	if (s1 == NULL)
@@ -22,18 +22,22 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (i = 0; s1[i] != '\0'; i++)
 	{
 	}
-	for (c = 0; s2[c] != '\0'; c++)
-	{
-	}
-	if (n >= c)
-		n = c;
-	pointer = malloc((i + c + 1) * sizeof(*pointer));
+	pointer = malloc(i + (n * sizeof(*s2) + 1) * sizeof(*pointer));
 	if (pointer == NULL)
 		return (NULL);
-	for (i = 0l s1[i] != '\0'; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 		pointer[i] = s1[i];
-	for (v = 0; s2[v] != '\0' && c < n; v++, i++)
-		pointer[i] = s2[v];
+	for (c = 0; s2[c] != '\0' && c < n; c++, i++)
+		pointer[i] = s2[c];
 	pointer[i] = '\0';
 	return (pointer);
+}
+int main(void)
+{
+	char *concat;
+
+	concat = string_nconcat("Holberton ", "School !!!", 6);
+	printf("%s\n", concat);
+	free(concat);
+	return (0);
 }
