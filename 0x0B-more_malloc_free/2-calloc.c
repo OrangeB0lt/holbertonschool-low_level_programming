@@ -1,7 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
-#include "holberton.h"
 
 /**
  * _calloc - uses malloc to assign memory, then sets it to zero
