@@ -15,7 +15,7 @@ char _mem(char *string, char num, unsigned int n)
 
 	for (i = 0; i < n; i++)
 		string[i] = num;
-	return (string);
+	return (*string);
 }
 
 /**
@@ -29,7 +29,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *pointer;
 
-	if (nmem == 0 || size == 0)
+	if (nmemb == 0 || size == 0)
 		return (NULL);
 	pointer = malloc(nmemb * size);
 	if (pointer == NULL)
