@@ -1,6 +1,13 @@
 #ifndef DOGGO
 #define DOGGO
 
+/**
+ * struct dog - all dog structures
+ * @name: dogs name
+ * @age: float for dogs age
+ * @owner: dog owner
+ **/
+
 struct dog
 {
 	char *name;
@@ -8,9 +15,6 @@ struct dog
 	char *owner;
 } dog;
 
-/**
- * dog_t - typedef for dog
- */
 
 typedef struct dog dog_t;
 void free_dog(dog_t *d);
