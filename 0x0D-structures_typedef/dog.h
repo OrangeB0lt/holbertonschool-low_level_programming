@@ -1,5 +1,5 @@
-#ifndef DOGGO
-#define DOGGO
+#ifndef DOG
+#define DOG
 
 struct dog
 {
