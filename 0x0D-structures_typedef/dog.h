@@ -1,24 +1,21 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "dog.h"
+#ifndef DOGGO
+#define DOGGO
+
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
+
+};
 
 /**
- * goodboy - function to define a dog
- * @dg: structure
- * @name: name of the goodboy
- * @age: float age of the goodboy
- * @master: dog's owner
- **/
+ * dog_type - typedef for dog
+ */
 
-void goodboy(struct dog *dg, char *name, float age, char *master)
-{
-	if dg == NULL
-		 {
-		 }
-	else
-	{
-		dg->name = name;
-		dg->age = age;
-		dg->master = master;
-	}
-}
+typedef struct dog dog_t;
+void free_dog(dog_t *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+#endif
