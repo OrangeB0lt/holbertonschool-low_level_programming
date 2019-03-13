@@ -4,9 +4,10 @@
 #include <string.h>
 
 /**
- *
- *
- *
+ * main - calculator
+ * @argc: argument count
+ * @argv: arguments
+ * Return: returns answer or Error
  **/
 
 int main(int argc, char *argv[])
