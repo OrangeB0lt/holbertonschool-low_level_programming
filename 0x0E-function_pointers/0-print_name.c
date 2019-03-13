@@ -15,7 +15,7 @@ void print_name(char *name, void (*f)(char *))
 	PrintName = f;
 	if (*PrintName == NULL)
 	{
-		exit (1);
+		exit(1);
 	}
-	PrintName (name);
+	PrintName(name);
 }
