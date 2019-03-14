@@ -14,6 +14,9 @@ int main(int argc, char *argv[])
 {
 	int (*f)(int, int);
 	int a, b, answer;
+	char operator;
+
+	operator = argv[2][0];
 
 	if (argc != 4)
 	{
@@ -28,7 +31,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	if (f == '/' || f == '%') && b == 0)
+	if ((operator == '/' || operator == '%') && b == 0)
 	{
 		printf("Error\n");
 		exit(100);
