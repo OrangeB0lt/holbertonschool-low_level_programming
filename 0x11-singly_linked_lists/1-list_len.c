@@ -12,7 +12,7 @@ size_t list_len(const list_t *h)
 	int index;
 	const list_t *pointer;
 
-	for(index = 0, pointer = h; pointer != NULL; index++)
+	for (index = 0, pointer = h; pointer != NULL; index++)
 		pointer = pointer->next;
-	return(index);
+	return (index);
 }
