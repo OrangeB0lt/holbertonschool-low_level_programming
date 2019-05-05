@@ -6,7 +6,7 @@
  * Return: the num of nodes
  **/
 
-size_t print_distint(const distint_t *h)
+size_t print_dlistint(const distint_t *h)
 {
 	size_t index;
 
