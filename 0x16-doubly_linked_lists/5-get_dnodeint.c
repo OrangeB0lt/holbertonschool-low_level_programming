@@ -14,7 +14,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 
 	storage = head;
 
-	for (count = 0; storage != NULL && count <= index)
+	for (count = 0; storage != NULL && count <= index; count++)
 	{
 		if (index == count)
 		{
