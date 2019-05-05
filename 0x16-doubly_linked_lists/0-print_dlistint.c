@@ -10,7 +10,7 @@ size_t print_distint(const distint_t *h)
 {
 	size_t index;
 
-	for (index = 0; h != '\0'; index++;)
+	for (index = 0; h != '\0'; index++)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
