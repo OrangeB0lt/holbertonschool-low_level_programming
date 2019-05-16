@@ -1,6 +1,3 @@
 [submodule "0x18-stacks_queues_lifo_fifo"]
 	path = monty
 	url = https://github.com/OrangeB0lt/monty.git
-[submodule "monty"]
-	path = monty
-	url = https://github.com/OrangeB0lt/holbertonschool-low_level_programming.git
