@@ -8,13 +8,13 @@
 
 unsigned long int hash_djb2(const unsigned char *str)
 {
-    unsigned long int hash;
-    int idx;
+	unsigned long int hash;
+	int idx;
 
-    hash = 5381;
-    while ((c = *str++))
-    {
-        hash = ((hash << 5) + hash) + idx;
-    }
-    return (hash);
+	hash = 5381;
+	while ((c = *str++))
+	{
+		hash = ((hash << 5) + hash) + idx;
+	}
+	return (hash);
 }
