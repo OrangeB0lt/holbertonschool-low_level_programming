@@ -17,7 +17,7 @@ void insertion_sort_list(listint_t **list)
 		if (here->prev->n > here->n)
 		{
 			store_node = here->next;
-			while (here->prec != NULL)
+			while (here->prev != NULL)
 			{
 				if (here->n < here->prev->n)
 				{
