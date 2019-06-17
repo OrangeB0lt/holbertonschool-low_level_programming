@@ -24,7 +24,7 @@ void selection_sort(int *array, size_t size)
 		{
 			storage = array[idx];
 			array[idx] = array[swp];
-			array[swp] = stoarge;
+			array[swp] = storage;
 			print_array(array, size);
 		}
 	}
