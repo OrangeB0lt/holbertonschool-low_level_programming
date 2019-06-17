@@ -1,12 +1,11 @@
 #include "sort.h"
 
 /**
- * shell_sort - function to sort array of ints in ascending order with shell 
- * sort algo
+ * shell_sort - function to sort array of ints in
+ * ascending order with shell sort algo
  * @array: array
  * @size: size of array
  * Desc: jump * 3 + 1
- * 
  */
 
 void shell_sort(int *array, size_t size)
@@ -25,7 +24,8 @@ void shell_sort(int *array, size_t size)
 		for (idx = jump; idx < size; idx++)
 		{
 			storage = array[idx];
-			for (count = idx; count >= jump && array[count - jump] > storage; count -= jump)
+			for (count = idx; count >= jump
+			&& array[count - jump] > storage; count -= jump)
 			{
 				array[count] = array[count - jump];
 			}
