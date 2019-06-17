@@ -7,21 +7,21 @@
 */
 void bubble_sort(int *array, size_t size)
 {
-    size_t idx, cnt;
+	size_t idx, cnt;
 
-    if (size < 1 || array == NULL)
-        return;
-    for (idx = 0; idx < size - 1; idx++)
-    {
-        for (cnt = 0; cnt < size - idx - 1; cnt++)
-        {
-            if (array[cnt] > array[cnt + 1])
-            {
-                Aswap(&array, cnt, cnt + 1);
-                print_array(array, size);
-            }
-        }
-    }
+	if (size < 1 || array == NULL)
+		return;
+	for (idx = 0; idx < size - 1; idx++)
+	{
+		for (cnt = 0; cnt < size - idx - 1; cnt++)
+		{
+			if (array[cnt] > array[cnt + 1])
+			{
+				Aswap(&array, cnt, cnt + 1);
+				print_array(array, size);
+			}
+		}
+	}
 }
 
 /**
@@ -33,9 +33,9 @@ void bubble_sort(int *array, size_t size)
 
 void Aswap(int **arr, int idx_a, int idx_b)
 {
-    int storage;
+	int storage;
 
-    storage = (*arr)[idx_a];
-    (*arr)[idx_a] = (*arr)[idx_b];
-    (*arr)[idx_b] = storage;
+	storage = (*arr)[idx_a];
+	(*arr)[idx_a] = (*arr)[idx_b];
+	(*arr)[idx_b] = storage;
 }
