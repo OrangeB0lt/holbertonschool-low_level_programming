@@ -74,7 +74,7 @@ void merge(int begin, int end, int *covfefe, int *array)
 		covfefe[storage++] = array[a++];
 	while (d <= end)
 		covfefe[storage++] = array[d++];
-	
+
 	storage = 0;
 	a = begin;
 	while (storage < storeSize)
