@@ -29,12 +29,15 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void quikSort(int *array, size_t size, int begin, int end);
 void shell_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
 
 /* helper functions */
 void Aswap(int **arr, int idx_a, int idx_b);
 void prevSwap(listint_t *no);
 void Bswap(int *array, size_t size, int second, int third);
 int parti(int *array, size_t size, int begin, int turn);
+void merge(int begin, int end, int *covfefe, int *array);
+void _sort(int begin, int end, int *covfefe, int *array);
 
 
 #endif
