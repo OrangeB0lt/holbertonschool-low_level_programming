@@ -69,6 +69,6 @@ void Bswap(int *array, size_t size, int second, int third)
 	storage = array[second];
 	array[second] = array[third];
 	array[third] = storage;
-	if (array[second != array[third])
+	if (array[second] != array[third])
 		print_array(array, size);
 }
