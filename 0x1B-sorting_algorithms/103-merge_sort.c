@@ -1,8 +1,8 @@
 #include "sort.h"
 /**
- * 
- * 
- * 
+ * merge_sort - sorts array using merge sort
+ * @array: array to sort
+ * @size: size of array
  */
 void merge_sort(int *array, size_t size)
 {
@@ -17,10 +17,11 @@ void merge_sort(int *array, size_t size)
 
 }
 /**
- * 
- * 
- * 
- * 
+ * _sort - divides array in half, until size 1
+ * @begin: start of cut array
+ * @end: end of array
+ * @covfefe: copy of original array
+ * @array: original array
  */
 void _sort(int begin, int end, int *covfefe, int *array)
 {
@@ -37,10 +38,11 @@ void _sort(int begin, int end, int *covfefe, int *array)
 	}
 }
 /**
- * 
- * 
- * 
- * 
+ * merge - merges arrays into one
+ * @begin: start of cut array
+ * @end: end of array
+ * @covfefe: copy of original array
+ * @array: original array
  */
 void merge(int begin, int end, int *covfefe, int *array)
 {
