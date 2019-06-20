@@ -4,7 +4,8 @@
  * Cswap - swaps a node with next node in list
  * @head: double pointer to start of list
  * @node: node
- */ 
+ */
+
 void Cswap(listint_t **head, listint_t *node)
 {
 	node->next->prev = node->prev;
@@ -37,11 +38,11 @@ void cocktail_sort_list(listint_t **list)
 		return;
 
 	storage = *list;
-	
+
 	while (replace != 0)
 	{
 		replace = 0;
-		while (storage->next->n < storage->n)
+		while (storage->next != NULL)
 		{
 			if (storage->next->n < storage->n)
 			{
