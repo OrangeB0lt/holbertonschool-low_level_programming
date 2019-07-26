@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * brinary_tree_depth - counts the depth of a speific tree in a binary tree
+ * binary_tree_depth - counts the depth of a speific tree in a binary tree
  * @tree: tree to find depth of
  * Return: returns depth of selected tree
  */

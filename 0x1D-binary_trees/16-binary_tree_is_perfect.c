@@ -16,7 +16,7 @@ int power(int first, int second)
 }
 
 /**
- * heighter_checker - measures height of tree
+ * height_checker - measures height of tree
  * @tree: pointer to root
  * Return: returns max number
  */
@@ -34,9 +34,9 @@ size_t height_checker(const binary_tree_t *tree)
 	return (1 + max);
 }
 /**
- * 
- * 
- * 
+ * tree_size - measures size of binary tree
+ * @tree: pointer to root of tree
+ * Return: returns the size of the tree
  */
 size_t tree_size(const binary_tree_t *tree)
 {
@@ -45,9 +45,9 @@ size_t tree_size(const binary_tree_t *tree)
 	return (tree_size(tree->left) + 1 + tree_size(tree->right));
 }
 /**
- * 
- * 
- * 
+ * binary_tree_is_perfect - checks if a tree is perfect
+ * @tree: pointer to tree root
+ * Return: returns 1 if perfect, 0 if not
  */
 
 int binary_tree_is_perfect(const binary_tree_t *tree)
@@ -57,11 +57,10 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	if (tree == NULL)
 		return (0);
-	
+
 	tHeight = height_checker(tree);
 	tSize = tree_size(tree);
-	tMath = power(2,(tHeight + 1)) - 1;
-
+	tMath = power(2, (tHeight + 1)) - 1;
 	if (tMath == tSize)
 		return (1);
 	return (0);
