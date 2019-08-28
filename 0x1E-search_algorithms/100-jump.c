@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "search_algos.h"
 
 /**
  * minimum - returns the minimum

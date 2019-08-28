@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "search_algos.h"
 
 /**
  * helper - helper for the binary search function

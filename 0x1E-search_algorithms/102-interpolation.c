@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "search_algos.h"
 
 /**
  * helper - searches for value in a sorted array using interpolation search

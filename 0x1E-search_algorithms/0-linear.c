@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "search_algos.h"
 
 /**
  * linear_search - linear search algo
@@ -16,7 +16,7 @@ int linear_search(int *array, size_t size, int value)
 		return (-1);
 	for (index = 0; index < size; index++)
 	{
-		printf("Value checked array[%ld] = [%d]\n", i, array[i]);
+		printf("Value checked array[%ld] = [%d]\n", index, array[index]);
 		if (array[index] == value)
 			return (index);
 	}
