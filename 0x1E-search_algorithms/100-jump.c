@@ -45,7 +45,7 @@ int helper(int *array, size_t start, size_t end, int value)
 	printf("Value checked array[%ld] = [%d]\n", prev, array[prev]);
 	printf("Value found between indexes [%ld] and [%ld]\n",
 		   prev, jump);
-	for (index = prev; index <= min(jump, end); index++)
+	for (index = prev; index <= minimum(jump, end); index++)
 	{
 		printf("Value checked array[%ld] = [%d]\n", index, array[index]);
 		if (array[index] == value)
